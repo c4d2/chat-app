@@ -1,0 +1,33 @@
+.ChatMessage {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    overflow-y: auto;
+
+    // justify-content: flex-end;
+    .receive-content {
+        display: flex;
+
+        .receive {
+            display: flex;
+            flex-direction: column;
+            max-width: 80%;
+
+            .receive_message {
+                color: white;
+                width: fit-content;
+                padding: 10px;
+                border-radius: 15px;
+                background-color: #797CFE;
+                position: relative;
+            }
+            span{
+                color: gray;
+                font-size: 13px;
+            }
+        }
+    }
+
+}
